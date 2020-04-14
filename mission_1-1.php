@@ -1,9 +1,4 @@
-echo "# PHPkeiziban" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/HayashiKyoka/PHPkeiziban.git
-git push -u origin master<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -11,8 +6,7 @@ git push -u origin master<!DOCTYPE html>
   </head>
   <body>
   <?php
-    $hensu="Hello World"
-    echo $hensu;
+    echo "Hello World";
   ?>
   </body>
 </html>
