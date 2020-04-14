@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+echo "# PHPkeiziban" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/HayashiKyoka/PHPkeiziban.git
+git push -u origin master<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
